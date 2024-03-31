@@ -72,8 +72,6 @@ Montage avec UUID
 
 ![05](/attachments/Debian_Ex_Mount_05.jpg)
 
-Vérification erreur avec `mount -a`
+Vérification erreur avec `mount -a` puis `systemctl daemon-reload`
 
 ![06](/attachments/Debian_Ex_Mount_06.jpg)
-
-Erreur d'analyse, les UUID sont pourtant exactes...
